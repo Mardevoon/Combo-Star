@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300&display=swap');
+
+:root{
+    --color-one: #420516;
+    --color-two: #7D1935;
+    --color-three: #B42B51;
+    --color-four: #ffffff;
+
+    --font-one: 'Roboto', sans-serif;
+    --font-two: 'Roboto', italic;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--color-one);
+    color: var(--color-four);
+    font-family: var(--font-one);
+}
+
+.cabecalho{
+    background-color: var(--color-three);
+    padding: 50px;
+    text-align: center;
+}
+    .cabecalho-menu{
+        display: inline-block;
+    }
+
+    .cabecalho-menu-botao{
+        padding: 0px 15px;
+        color: var(--color-four);
+        font-family: var(--font-one);
+        font-weight: 600;
+        font-size: 22px;
+        text-decoration: none;
+    }
+            .cabecalho-menu-botao:hover{
+                background-color: var(--color-two);
+                padding: 15px;
+                border-radius: 80px;
+            }
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+    .menu-titulo{
+        background-color: var(--color-two);
+        font-family: var(--font-one);
+        padding: 100px 0px;
+    }
+
+    .menu-titulo-h1{
+        font-size: 32px;
+        padding: 20px;
+    }
+
+    .menu-titulo-p{
+        font-size: 24px;
+    }
+
+    .menu-conteudo{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5% 12%;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .menu-contato{
+        font-weight: 500;
+    }
+
+    .menu-contato-destaque{
+        padding: 30px 0px;
+    }
+
+    .menu-conteudo-alinhamento{
+        text-align: center;
+    }
+
+    .menu-imagens{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2% 18%;
+    }
+
+    .menu-imagem{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        max-width: 250px;
+        max-height: auto;
+        gap: 15px;
+    }    
+
+.rodape{
+    background-color: var(--color-three);
+    padding: 30px;
+    text-align: center;
+}
+    .rodape-texto{
+        padding: 15px;
+    }
+
+    .rodape-texto-italic{
+        font-style: italic;
+        font-weight: 600;
+    }
